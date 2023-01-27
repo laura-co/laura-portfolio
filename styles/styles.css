@@ -83,31 +83,34 @@ p {
 }
 
 @media (max-width: 900px) {
-h1 {
-    font-size: 40px;
-    text-align: center;
-    line-height: 2.5;
-}
-
-h2 {
-font-size: 33px;
-    text-align: center;
-    line-height: 2;
-}
-
-.hero h2, .hero p, p,  {
-    font-size: 16px;
+    h1 {
+        font-size: 40px;
         text-align: center;
+        line-height: 2.5;
+    }
+
+    h2 {
+        font-size: 33px;
+        text-align: center;
+        line-height: 2;
+    }
+
+    .hero h2,
+    .hero p,
+    p,
+    {
+    font-size: 16px;
+    text-align: center;
 }
 
 .hero {
     padding: 80px 20px;
 }
 
-    .project-descriptions {
-        padding: 0;
-        text-align: center;
-    }
+.project-descriptions {
+    padding: 0;
+    text-align: center;
+}
 
 .btn-secondary {
     line-height: 20px;
