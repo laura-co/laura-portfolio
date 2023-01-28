@@ -99,6 +99,10 @@ p {
     padding: 120px 60px;
 }
 
+.skills-section-content {
+    padding: 100px 40px;
+}
+
 .about-section h1 {
     font-size: 64px;
     line-height: 1.2;
@@ -155,6 +159,11 @@ p {
 .contact-section {
     padding: 0 -20px;
 }
+
+contact h1 {
+            font-size: 64px;
+            line-height: 1.2;
+        }
 
 .img-fluid {
     border-radius: 10px 10px;
