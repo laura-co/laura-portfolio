@@ -130,6 +130,19 @@ p {
     padding: 160px 20px;
 }
 
+.contact p {
+    text-align: center;
+}
+
+.email {
+    text-align: center;
+    font: var(--default-font-family);
+    font-size: 20px;
+    color: var(--primary-color);
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
 .img-fluid {
     border-radius: 10px 10px;
 }
