@@ -24,11 +24,14 @@ h6 {
 h1 {
     font-size: 96px;
     line-height: 1.5;
-
 }
 
 h2 {
     font-size: 64px;
+}
+
+h3 {
+    font-size: 48px;
 }
 
 p {
@@ -65,7 +68,14 @@ p {
     font-family: var(--default-font-family);
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px;
+    padding: 15px 60px;
+}
+
+.btn-primary:hover {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    border-radius: 4px;
+    padding: 15px 60px;
 }
 
 .btn-secondary {
@@ -75,7 +85,14 @@ p {
     font-family: var(--default-font-family);
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px;
+    padding: 15px 60px;
+}
+
+.btn-secondary:hover {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    border-radius: 4px;
+    padding: 15px 60px;
 }
 
 .project-descriptions {
@@ -132,19 +149,7 @@ p {
 
 .contact p {
     text-align: center;
-}
-
-.email {
-    text-align: center;
-    margin: 0 auto;
-    line-height: 1.5;
-}
-
-.email a {
-    text-decoration: none;
-    color: var(--primary-color);
-    font: var(--default-font-family);
-    font-size: 18px;
+    margin: 0;
 }
 
 .contact-section {
@@ -153,6 +158,7 @@ p {
 
 .img-fluid {
     border-radius: 10px 10px;
+    margin-bottom: 60px;
 }
 
 .logo {
@@ -168,6 +174,30 @@ p {
     padding: 0 10px;
 }
 
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 20px;
+    border-radius: 45px;
+}
+
+footer .email {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+footer .email a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font: var(--default-font-family);
+    font-size: 18px;
+    text-align: center;
+}
+
+
 @media(max-width: 992px) {
     .project-descriptions h2 {
         margin-bottom: 150px !important;
@@ -176,12 +206,26 @@ p {
     .row {
         margin: 0;
     }
-}
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            line-height: 1.5;
+            padding: 80px 20px;
+        }
 
 h2 {
     font-size: 33px;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1;
+    padding: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1;
+    padding: 30px;
 }
 
 .hero h2,
@@ -200,12 +244,18 @@ p {
     text-align: center;
 }
 
+.btn-primary {
+    line-height: 20px;
+    padding: 20px, 0;
+}
+
 .btn-secondary {
     line-height: 20px;
-    padding: 30px, 0;
+    padding: 20px, 0;
 }
 
 .about-section {
     text-align: center;
     padding: 0;
+}
 }
