@@ -136,15 +136,36 @@ p {
 
 .email {
     text-align: center;
-    font: var(--default-font-family);
-    font-size: 20px;
-    color: var(--primary-color);
     margin: 0 auto;
     line-height: 1.5;
 }
 
+.email a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font: var(--default-font-family);
+    font-size: 18px;
+}
+
+.contact-section {
+    padding: 0 -20px;
+}
+
 .img-fluid {
     border-radius: 10px 10px;
+}
+
+.logo {
+    max-width: 35px;
+    max-height: 15px;
+}
+
+.active {
+    color: var(--primary-color) !important;
+}
+
+.nav-item {
+    padding: 0 10px;
 }
 
 @media(max-width: 992px) {
